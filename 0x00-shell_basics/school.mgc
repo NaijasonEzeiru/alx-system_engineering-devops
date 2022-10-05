@@ -1,2 +1,2 @@
 #!/bin/bash
-find .  -SCHOOL "*string*"
+find . -name "*SCHOOL*"
