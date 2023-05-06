@@ -16,7 +16,7 @@ frontend  naijason-frontend
         default_backend naijason-backend
 backend naijason-backend
         balance roundrobin
-        server 171533-web-01 54.90.41.78:80 check
+        server 171533-web-01 34.229.184.85:80 check
         server 171533-web-02 34.229.66.93:80 check
 "
 echo "$server_config" | sudo tee -a /etc/haproxy/haproxy.cfg
